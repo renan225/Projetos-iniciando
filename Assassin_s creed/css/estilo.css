@@ -1,0 +1,201 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetiva, sans-serif;
+	background: #fff;
+}
+
+/*Topo do site*/
+#container {
+	background: #151515 url(../imagens/topo.jpg) no-repeat center top;
+	height: 220px;
+}
+
+#topo {
+	height: 150px;
+	padding-top: 25px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 100px;
+	height: 50px;
+	text-indent: -3000px;
+}
+
+/*Barra de navegação do topo com os links*/
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#topo ul {
+	margin-top: 75px;
+	margin-left: 150px;
+	background: #fff;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 2em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: black;
+	background: url(../imagens/divisor.png) no-repeat left;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #d6dbdf;
+}
+
+body.home #navegacao a#home,
+body.noticias #navegacao a#noticias,
+body.guias #navegacao a#guias,
+body.jogos #navegacao a#jogos,
+body.historias #navegacao a#historias {
+	color: black;
+	background: #d6dbdf;
+	cursor: text;
+}
+
+/*Aréa de conteúdos*/
+#conteudo {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+#duas-colunas #primario {
+	width: 740px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#uma-coluna #primario {
+	width: 1000px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#lateral {
+	width: 240px;
+	float: right;
+}
+
+/*Caixa*/
+.caixa {
+	margin: 20px 0;
+	padding: 10px;
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);	
+}
+
+h2 {
+	background: #212f3c;
+	font-size: 1em;
+	color: white;
+	padding: 5px;	
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+/*Menus laterais*/
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador1.png) no-repeat left center;
+	color: #d6dbdf;	
+	padding-left: 20px;	
+}
+
+/*Formatando formulários
+*/
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #212f3c;
+	border: 2px solid #212f3c;
+}
+
+/*Formatando imagens*/
+
+img.imagem-destaque {
+	width: 100%;
+	border: 2px solid #dfdfdf;
+}
+
+.destaque h3 {
+	background: #fff;
+	color: black;
+	display: block;	
+}
+
+/*Formatando Cabeçalhos*/
+h3 {
+	display: inline;
+	font-size: 1.2em;
+	padding: 3px;
+}
+
+#primario a{
+	text-decoration: none;
+	color: black;
+}
+
+#primario div a:hover .leia-mais {
+	text-decoration: underline;
+	display: inline;
+	background: #f3f3f3;
+}
+
+/*Rodapé*/
+#container-rodape {
+	background:  #212f3c;
+	padding: 20px;
+}
+
+#rodape {
+	color: white;
+	margin: 0 auto;
+	width: 1000px;
+}
