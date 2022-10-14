@@ -1,0 +1,44 @@
+body{
+	background: #000000;
+	font-size: 20px;
+}
+
+p{
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+h4{
+	color: white;
+	text-align: center;
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+.centralizar{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#logo{
+	height: 200px;
+}
+

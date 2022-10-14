@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #D6D6D6;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+a:link{
+	color: #D6D6D6;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#cabecalho a{
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+
+#cabecalho a:link{
+	color: white;
+}
+
+#cabecalho a:visited{
+	background: white;
+}
+
+#cabecalho a:hover{
+	background: #BEFE;
+}
+
+#cabecalho{
+	background: #00CA06;
+	text-align: center;
+}
+
+#logo{
+
+	padding: 20px;
+}
+
+#menus{
+	padding: 20px;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens{
+	width: 640px;
+}
+
+#area-lateral{
+	width: 220px;
+	float: right;
+}
+
+.branco{
+	color: white;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+.postagem{
+	background: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
