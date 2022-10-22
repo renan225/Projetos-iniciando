@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Javascript -->
+    <script type="text/javascript">
+      
+      function gerarFraseMotivacional() {
+          
+          const frases = [//0...9
+          "Mas tu, Senhor, és o escudo que me protege; és a minha glória e me fazes andar de cabeça erguida. Ao Senhor clamo em alta voz, e do seu santo monte ele me responde. Salmos 3:3,4",
+          "Mesmo quando eu andar por um vale de trevas e morte, não temerei perigo algum, pois tu estás comigo; a tua vara e o teu cajado me protegem. Salmos 23:4",
+          "Senhor, Deus de Israel, não há Deus como tu em cima nos céus nem embaixo na terra! Tu que guardas a tua aliança de amor com os teus servos que, de todo o coração, andam segundo a tua vontade. 1 Reis 8:23",
+          "Meu filho, não despreze a disciplina do Senhor nem se magoe com a sua repreensão, pois o Senhor disciplina a quem ama, assim como o pai faz ao filho de quem deseja o bem. Provérbios 3:11,12",
+          "Pois onde estiver o seu tesouro, aí também estará o vosso coração. Mateus 6:21",
+          "Estas coisas vos tenho dito para que tenhais paz em mim. No mundo, passais por aflições; mas tende bom ânimo; eu venci o mundo. João 16:33",
+          "Em ti, força minha, esperarei; pois Deus é meu alto refúgio. Salmos 59:9",
+          "Não cesses de falar deste Livro da Lei; antes, medita nele dia e noite, para que tenhas cuidado de fazer segundo tudo quanto nele está escrito; então, farás prosperar o teu caminho e serás bem-sucedido. Josué 1:8",
+          "Sobre tudo o que se deve guardar, guarda o coração, pois ele dirige o rumo da tua vida. Provérbios 4:23",
+          "Louvai ao Senhor , porque ele é bom; porque a sua benignidade é para sempre. Salmos 136:1",
+        ]
+
+        const numeroAleatorio = Math.floor(Math.random() * 10)
+        const frase = frases[numeroAleatorio]
+ 
+        document.getElementById('frase').innerHTML = frase
+
+      }
+
+    </script>
+
+
+    <title>Frases motivacionais</title>
+
+  </head>
+
+  <body>
+    
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="jumbotron">
+              <h1 class="text-success display-5">Frases motivacionais</h1>
+              <hr>
+
+              <h2 class="display-4" id="frase">
+                Deus está cuidando de tudo.
+              </h2>
+
+              <hr>
+              <button type="button" 
+              class="btn btn-success btn-lg" onclick="gerarFraseMotivacional()">Nova frase</button>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+</html>
