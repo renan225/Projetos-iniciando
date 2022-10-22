@@ -8,6 +8,8 @@
 
 <a href="https://renan225.github.io/Projetos-iniciando/sonic/">Link para o site "Sonic" <strong>meu primeiro site</strong></a>
 
+<a href="https://renan225.github.io/Projetos-iniciando/app2/index.html">Link para o jogo "Mata Mosquito"</a>
+
  Estes são os meus projetos iniciando com HTML, CSS e JavaScript
 
     
