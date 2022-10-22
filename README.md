@@ -26,7 +26,7 @@
 
 <a href="https://renan225.github.io/Projetos-iniciando/finans/">Link para o site "Finans - finanças pessoais"</a>
 
-<h2>Projetos JavasCript</h2>
+<h2>Projetos JavaScript</h2>
  
 <a href="https://renan225.github.io/Projetos-iniciando/app2/index.html">Link para o jogo "Mata Mosquito"</a>
 
