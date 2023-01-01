@@ -1,5 +1,3 @@
-# Projetos iniciando 
-
 <h2>Projetos HTML e CSS (não responsivos)</h2>
 
 <a href="https://renan225.github.io/Projetos-iniciando/assassinscreed/index.html">Link para o site "Assassin's Creed - Notícias e Jogos"</a>
@@ -25,6 +23,8 @@
 <h2>Projetos HTML, CSS e Bootstrap (Leiaute responsivo)</h2>
 
 <a href="https://renan225.github.io/Projetos-iniciando/finans/">Link para o site "Finans - finanças pessoais"</a>
+
+<a href="https://renan225.github.io/Projetos-iniciando/easy-portfolio/index.html"> Easy portfolio </a>
 
 <h2>Projetos JavaScript</h2>
  
